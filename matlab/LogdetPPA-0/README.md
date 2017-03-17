@@ -13,7 +13,7 @@ Chengjing Wang, Defeng Sun, and Kim-Chuan Toh
 This is software package for solving standard log-determinant
 primal and dual SDP of the form: 
 
-
+~~~~
 %% (P)  min  (C1,X1) + ... + (CN,XN) - mu1*logdet(X1) - ... - muN*logdet(XN)
 %%      s.t. A1(X1) + ... + AN(XN) = b,
 %%           X1,...,XN positive definite
@@ -25,6 +25,7 @@ primal and dual SDP of the form:
 %%      where Xk, Zk are either symmetric positive definite matrices or positive vectors.
 %%      The parameters mu1,...,muN are given positive scalars.
 %%      The constant term in (D) depends on the demensions of X1,...,XN and mu1,...,muN.
+~~~~
 
 ----------------------------------------------------------------------------
 The main algorithm is a semi-smooth Newton CG primal proximal 
