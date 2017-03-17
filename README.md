@@ -7,3 +7,5 @@ The _log-determinant primal proxmial point algorithm (__LogdetPPA__)_ is introdu
 This project implements the LogdetPPA algorithm in Python. The matlab version written by Kim-Chuan Toh et al is included for self-contained purpose. 
 
 __For anyone using the Matlab version of LogdetPPA, please cite the paper as above.__ 
+
+The __LogdetPPA__ is an efficient solver for Gaussian graphical model selection, __inverse covariance estimation__ and other graphical model inference using Gaussian distribution. 
